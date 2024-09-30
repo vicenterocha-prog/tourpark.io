@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Azul claro */
+}
+
+header {
+    background-color: #228b22; /* Verde Floresta */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallery img {
+    width: 280px;
+    height: 240px;
+}
+
+footer {
+    background-color: #228b22; /* Verde Floresta */
+    color: white;
+    text-align: center;
+    padding: 0ch;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

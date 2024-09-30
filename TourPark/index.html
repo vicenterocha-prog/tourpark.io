@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parques Ecológicos e Vivenciais de Brasília</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .header {
+            display: flex;
+            align-items; center;
+            justify-content:center; space-between;
+            padding: 0,5px;
+        }
+        .logo img {
+            width: 150px;
+            height: 100px;
+        }
+        .header {
+            flex-grow: 1;
+            text-align: center;
+        }
+    </style>
+
+<style>
+    .marquee {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+    }
+    .marquee span {
+        display: inline-block;
+        padding-left: 100%;
+        animation: marquee 20s linear infinite;
+    }
+    @keyframes marquee {
+        0% { transform: translate(0, 0); }
+        100% { transform: translate(-100%, 0); }
+    }
+</style>
+
+    <style>
+        .button {
+            display: inline;
+            margin: 2em auto;
+            padding: 0,5em 0em;
+            background-color:rgb(90,159,205);
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        .button i {
+            margin-right: 8px;
+        }
+    </style>
+    <style>
+        .center-text {
+            text-align: center;
+        }
+    </style>
+            
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="icologoanime.jpg" alt="Logo do Site">
+        </div>
+        <div class="header">
+            <h1>Roteiros Ecológicos e Vivenciais no Distrito Federal</h1>
+        </div>
+    </header>
+       <main>
+        <section class="introdução">
+            <h2>Confira cinco parques ecológicos e vivenciais próximos ao centro histórico e político de Brasília</h2>
+        </section>
+            <p>Está de passagem rápida pela capital à trabalho ou fez algumas horas de escala por aqui e quer cumprir seu treino diário, ou mesmo respirar algumas horas de ar puro em meio à natureza?. Selecionamos um grupo de parques que ficam mais centralizados em relação ao Plano Piloto. Assim, mesmo sozinho, ou com a família,  poderá usufruir de tempo saudável junto à natureza e ter contato com o bioma cerrado predominante na nossa região!</p>
+        </section>
+
+        <section class="parques">
+            <div class="marquee">
+                <span><h3>Clique nas imagens dos parques para conhecê-los melhor!</h3></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="index1.html" target="_blank">
+                    <img src="entrada.pc.jpg" alt="Parque da Cidade"></a>
+                    <h4>
+                        <a href="index1.html" target="_blank" class="button">
+                            <i class="fas fa-map-marker-alt"></i>Parque da Cidade
+                        </a>
+                    </h4>
+                </li>
+                <li>
+                    <a href="index2.html" target="_blank">
+                    <img src="entradajb.jpg" alt="Jardim Botânico">
+                </a>
+                    <h4> <a href="index2.html" target="_blank" class="button">
+                        <i class="fas fa-map-marker-alt"></i>Jardim Botânico
+                    </a></h4>
+                </li>
+                <li>
+                    <a href="index3.html" target="_blank">
+                    <img src="entradapn.jpg" alt="Parque Nacional de Brasília"></a>
+                    <h4><a href="index3.html" target="_blank" class="button">
+                        <i class="fas fa-map-marker-alt"></i>Parque Nacional de Brasília
+                    </a></h4>
+                </li>
+                <li>
+                    <a href="index4.html" target="_blank">
+                    <img src="entradaac.jpg" alt="Parque Ecológico de Águas Claras">
+                </a>
+                    <h4><a href="index4.html" target="_blank" class="button">
+                        <i class="fas fa-map-marker-alt"></i>Parque Ecológico de Águas Claras
+                    </a></h4>
+                </li>
+                <li>
+                    <a href="index5.html" target="_blank">
+                    <img src="entradaod.jpg" alt="Parque Olhos D'Água">
+                </a>
+                    <h4><a href="index5.html" target="_blank" class="button">
+                        <i class="fas fa-map-marker-alt"></i>Parque Olhos D'Água
+                    </a></h4>
+                </li>
+            </ul>
+                   <br>
+        <section class="sugestões">
+            <h3 class="center-text">Deixe aqui suas sugestões, dúvidas e/ou reclamações</h3>
+            
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container"
+        <p class="centralizado">&copy; 2024 Roteiros Ecológicos e Vivenciais no Distrito Federal</p> 
+        <div class="direita">
+           <p>Saiba mais pelos canais da  Secretaria de Turismo do DF:</p>
+
+          <ul class="redes-sociais">
+            <li>
+            <a href="#none" target="_blank">
+                <img src="icologonet.jpg" alt="Site da Secretaria de Turismo do DF">
+            </a>
+            </li>   
+            <li>
+              <a href="#none" target="_blank">
+                <img src="ico-facebook.jpg" alt="Facebook da SETURDF">
+              </a>
+            </li>
+            <li>
+              <a href="#none" target="_blank">
+                <img src="ico-instagram.jpg" alt="Instagram da SETURDF">
+              </a>
+            </li>
+          </ul>
+        </div>
+          </div>
+        </footer>
+
+    <script src="java.js"></script>
+        
+</body>
+</html>

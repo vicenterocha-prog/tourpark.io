@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: slateblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+header.logo {
+    font-size: 1.0em;
+}
+
+main {
+    padding: 2em;
+    background-color: palegreen;
+}
+
+.introdução {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.parques ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.parques ul li {
+    text-align: center;
+}
+
+.parques ul li img {
+    width: 280px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.sugestões form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+footer {
+    background-color: slateblue;
+    color: white;
+    margin: 0%;
+    text-decoration: none;
+    padding: auto;
+}
+
+footer  
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.centralizado {
+    margin-bottom: 1em;
+}
+.direita {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    text-align: right;
+   
+}
+    .redes-sociais {
+        list-style: none;
+        display: flex;
+        gap: 1em;
+        padding: 0;
+        margin: 0;
+      
+}
+    .redes-sociais li {
+        display: inline;
+        margin-right: 20px;
+}
+      
+    .redes-sociais li a img {
+        width: 30px;
+        height: 30px;
+}
+
